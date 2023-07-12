@@ -23,6 +23,7 @@ body{
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
+   
 }
 .header-one{
     left: 15%;
@@ -31,19 +32,73 @@ body{
     right: 15%;
 }
 .container{
+    display: flex;
+    flex-direction: row;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius:2rem;
     min-width: 700px ;
     width: 70%;
-    height: 70%;
+    height: 90%;
     background-color:aqua ;
 }
+
 .left-panel{
-    border-right: 2px dashed white;
+    border-right: 3px dashed white;
     width: 30%;
     height: 100%;
     border-radius: 2rem;
 }
+.right-panel{
+    width: 70%;
+    height: 60%; 
+
+}
+.forecast-1,.forecast-2,.forecast-3,.forecast-4,.forecast-5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.forecast-1{
+    
+    right: 21%;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;   
+}
+.forecast-2{
+    right: 52.5%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2rem;      
+}
+.forecast-3{
+    right: 46%;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 4rem;   
+   
+}
+.forecast-4{ 
+    
+    right: 39%;
+    font-size: 1rem;
+    font-weight: 750;
+    padding: 9rem;   
+ } 
+ .forecast-5{ 
+    
+    right: 31%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 11rem;   
+ } 
+ .details{ 
+    
+    right: 31%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 11rem;   
+ } 
 .searchBar-container{
     display: flex;
     justify-content: center;
