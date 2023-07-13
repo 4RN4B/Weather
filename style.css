@@ -48,6 +48,17 @@ body{
     height: 100%;
     border-radius: 2rem;
 }
+.temparature-1{
+    font-size: 60px;
+    font-weight: 600;
+    font-style:initial;
+}
+.humidity{
+    font-size: 45px;
+    font-weight: 500;
+    font-style:initial;
+}
+
 .right-panel{
     width: 70%;
     height: 60%; 
@@ -66,10 +77,11 @@ body{
     padding: 1rem;   
 }
 .forecast-2{
-    right: 52.5%;
+    right: 55.5%;
     font-size: 1rem;
     font-weight: 600;
-    padding: 2rem;      
+    padding: 2rem; 
+        
 }
 .forecast-3{
     right: 46%;
@@ -79,26 +91,53 @@ body{
    
 }
 .forecast-4{ 
-    
     right: 39%;
     font-size: 1rem;
     font-weight: 750;
-    padding: 9rem;   
+    padding: 9rem;
  } 
  .forecast-5{ 
     
-    right: 31%;
+    right: 37%;
     font-size: 1rem;
     font-weight: 500;
-    padding: 11rem;   
+    padding: 11px;
+    max-width: 100%;  
+    bottom: 34%;    
  } 
+ .details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    max-width: 100%;
+    padding: 1.5rem;
+
+ }
  .details{ 
     
-    right: 31%;
+    border: none;
+    width:16% ;
+    height: 13%;
+    padding: 0.5rem;
+    bottom: -31%;
     font-size: 1rem;
     font-weight: 500;
-    padding: 11rem;   
+    border-radius: 2rem;
+    background-color: darkgrey;
+   
  } 
+ .temparature{
+ 
+    font-size: 50px;
+    font-weight: 600;
+    font-style:initial;
+    max-width: 100%;
+    zoom: normal;
+    
+   
+}
+
 .searchBar-container{
     display: flex;
     justify-content: center;
@@ -109,6 +148,7 @@ body{
 }
 .searchBar{
     border: none;
+    border-radius: 2rem;
     width:90% ;
     height: 50%;
     padding: 0.5rem;
