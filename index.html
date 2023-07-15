@@ -1,87 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
+    <body>
+        <div class="header-container">
+            <span class="header-one">Weather Dashboard</span>
+            <span class="header-two">2023</span>
+        </div>
+        <div class="container">
+            <div class="left-panel">
+                <div class="searchBar-container">
+                    <input
+                        placeholder="Search city name"
+                        type="text"
+                        class="searchBar"
+                    />
+                </div>
 
-<body>
-    <div class="header-container">
-        <span class="header-one">Weather Dashboard</span>
-        <span class="header-two">2023</span>
-    </div>
-    <div class="container">
+                <big class="temparature-1">
+                    20
+                    <sup>°</sup>
+                    +/- 3
+                </big>
+                <big class="humidity"> 9.8% </big>
+                <h4>Wind WSW 6mph</h4>
+                <h2 style="text-align: center" class="">0.8%</h2>
 
-        <div class="left-panel">
-
-            <div class="searchBar-container">
-                <input placeholder="Search city name" type="text" class="searchBar">
-
+                <div class="information-container">
+                    <table class="table" size="15px">
+                        <thead>
+                            <th>Safe</th>
+                            <th>Dangerous</th>
+                        </thead>
+                        <tbody class="t-components">
+                            <tr>
+                                <td>0.00%-0.9%</td>
+                                <td>12%-38%</td>
+                            </tr>
+                            <tr>
+                                <td>0.9%-11%</td>
+                                <td>39%-90%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
+            <div class="right-panel">
+                <span class="forecast-1"
+                    >National <br />
+                    Wheather</span
+                >
+                <span class="forecast-2">Wheather Forecast</span>
+                <h1>Storm <br />With Heavy Rain</h1>
+                <h3>🌧️USA,Friday,Jan 3,2023,8:45AMs</h3>
+                <h3>Variable clouds with snow showers.High 11F.Winds</h3>
+                <h3>
+                    at 10 to mph.Chance of snow 50%.Snow<br />accumulations less
+                    tham one inch.
+                </h3>
+                <button type="button" class="details">SEE DETAILS</button>
 
-            <big class="temparature-1 " style="position:relative; left:116px; top:-21px;">
-                20
-                <sup>°</sup>
-                +/- 3
-            </big>
-            <big class="humidity" style="position:relative; left:-128px; top:37px;">
-                9.8%
-            </big>
-            <h4 style="position:relative; left:215px; top:-22px;">Wind WSW 6mph</h4>
-            <h2 style="position:relative; left:307px; top:-9x;">0.8%</h2>
-                
-            <div class="information-container">
-                <table class="table"     size="15px" style="position:relative; left:-2px; top:-30px;">
-                    <thead >
-                        <th>Safe</th>
-                        <th>Dangerous</th>
-                    </thead>
-                    <tbody class="t-components" style="position:relative; left:63px; top:14px;">
-                        <tr>
-                            <td>0.00%-0.9%</td>
-                            <td>12%-38%</td>
-                        </tr>
-                        <tr>
-                            <td>0.9%-11%</td>
-                            <td>39%-90%</td>
-                        </tr>
-                       
-                    </tbody>
-                </table>
-
+                <big class="temparature" z>
+                    17
+                    <sup>°</sup>
+                </big>
             </div>
-      
-
+            <div class="bottom-panel"></div>
         </div>
-
-        <div class="right-panel">
-
-            <span class="forecast-1">National <br> Wheather</span>
-            <span class="forecast-2">Wheather Forecast</span>
-            <h1 style="position:relative; left:35px; top:97px;">Storm <br>With Heavy Rain</h1>
-            <h3 style="position:relative; left:33px; top:122px;">🌧️USA,Friday,Jan 3,2023,8:45AMs</h3>
-            <h3 style="position:relative; left:53px; top:132px;">Variable clouds with snow showers.High 11F.Winds </h5>
-                <h3 style="position:relative; left:140px; top:119px;"> at 10 to mph.Chance of snow
-                    50%.Snow<br>accumulations less tham one inch.</h5>
-                    <button type="button" class="details" style="position:relative; left:24px; top:101px;">
-                        SEE DETAILS</button>
-
-                    <big class="temparature " style="position:relative; left:-136px; top:50px;" z>
-                        17
-                        <sup>°</sup>
-                    </big>
-
-
-        </div>
-        <div class="bottom-panel">
-
-        </div>
-
-    </div>
-</body>
-
+    </body>
 </html>
